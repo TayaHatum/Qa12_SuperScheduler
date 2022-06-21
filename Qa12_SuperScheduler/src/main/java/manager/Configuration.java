@@ -13,7 +13,7 @@ import java.net.URL;
 
 public class Configuration {
 
-   static AppiumDriver<MobileElement> driver;
+   protected static AppiumDriver<MobileElement> driver;
 
    @BeforeSuite
    public void  setUp() throws MalformedURLException {
