@@ -24,6 +24,8 @@ public class Configuration {
       capabilities.setCapability("platformVersion","8.0");
       capabilities.setCapability("appPackage", "com.example.svetlana.scheduler");
       capabilities.setCapability("appActivity", ".presentation.splashScreen.SplashScreenActivity");
+      capabilities.setCapability("app","/Users/tayahatum/Downloads/apk/v.0.0.3.apk");
+
       capabilities.setCapability("automationName","Appium");
       driver = new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
    }
