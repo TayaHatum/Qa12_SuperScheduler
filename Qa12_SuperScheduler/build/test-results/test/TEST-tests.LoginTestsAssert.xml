@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTestsAssert" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-24T09:04:03" hostname="MacBook-Pro-Taya.local" time="22.468">
+  <properties/>
+  <testcase name="loginSuccess" classname="tests.LoginTestsAssert" time="22.468"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
