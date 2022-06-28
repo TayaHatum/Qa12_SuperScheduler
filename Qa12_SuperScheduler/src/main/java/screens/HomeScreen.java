@@ -19,6 +19,9 @@ public class HomeScreen extends BaseScreen{
     @FindBy (xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']")
     MobileElement plusBtn;
 
+    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']")
+    MobileElement fabAddEvent;
+
 
     public boolean isPlusButtonPresent(){
         new WebDriverWait( driver,10)

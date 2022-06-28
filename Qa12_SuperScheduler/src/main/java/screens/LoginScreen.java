@@ -2,6 +2,7 @@ package screens;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import models.User;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,6 +18,19 @@ public class LoginScreen extends BaseScreen{
     MobileElement passwordEditText;
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/login_btn']")
     MobileElement loginButton;
+
+    public  HomeScreen complexLogin(User user){
+        new WebDriverWait(driver,15).until(ExpectedConditions.visibilityOf(emailEditText));
+        type(emailEditText, user.getEmail());
+        type(passwordEditText, user.getPassword());
+        driver.hideKeyboard();
+        loginButton.click();
+
+        return new HomeScreen(driver);
+
+    }
+
+
 
     public LoginScreen fillEmail(String email){
         //waite
