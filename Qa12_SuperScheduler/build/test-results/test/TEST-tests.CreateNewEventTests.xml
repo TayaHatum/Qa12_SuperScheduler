@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.CreateNewEventTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-28T17:49:17" hostname="MacBook-Pro-Taya.local" time="88.675">
+  <properties/>
+  <testcase name="addNewEventSuccess" classname="tests.CreateNewEventTests" time="47.542"/>
+  <testcase name="addNewSuccessSecond" classname="tests.CreateNewEventTests" time="41.126"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -22,6 +22,15 @@ public class HomeScreen extends BaseScreen{
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']")
     MobileElement fabAddEvent;
 
+    public EditCreateEventScreen initCreationEvent(){
+        plusBtn.click();
+        fabAddEvent.click();
+
+        return new EditCreateEventScreen(driver);
+    }
+
+
+
 
     public boolean isPlusButtonPresent(){
         new WebDriverWait( driver,10)
