@@ -1,0 +1,3 @@
+11:09:20.188  INFO  manager.Configuration - Device name --> 'Nex'; Platform --> 'Android'; Version --> '8.0'
+11:09:20.197  INFO  manager.Configuration -  App version ---> '0.0.3' 
+11:09:37.746  INFO  manager.Configuration - Test start with user --->User(email=noa@gmail.com, password=Nnoa12345$)

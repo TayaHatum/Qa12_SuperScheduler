@@ -1,0 +1,111 @@
+11:35:17.691  INFO  manager.Configuration - Device name --> 'Nex'; Platform --> 'Android'; Version --> '8.0'
+11:35:17.700  INFO  manager.Configuration -  App version ---> '0.0.3' 
+11:35:44.627  INFO  manager.Configuration - Test start with user --->User(email=noa@gmail.com, password=Nnoa12345$)
+11:35:45.103  INFO  manager.MyListener - Before find by --->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:45.467  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:45.469  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:46.090  INFO  manager.MyListener - After find by ---->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:46.593  INFO  manager.MyListener - Before find by --->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:46.881  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:46.883  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:49.640  INFO  manager.MyListener - After find by ---->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:50.167  INFO  manager.MyListener - Before find by --->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:50.357  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:50.359  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:52.802  INFO  manager.MyListener - After find by ---->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:53.327  INFO  manager.MyListener - Before find by --->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:53.471  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:53.472  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:55.356  INFO  manager.MyListener - After find by ---->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:55.892  INFO  manager.MyListener - Before find by --->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:56.025  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:56.036  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:58.136  INFO  manager.MyListener - After find by ---->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:58.665  INFO  manager.MyListener - Before find by --->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:35:58.769  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:35:58.770  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e83fe35-7363-4e57-9547-df7196eb9749
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:01.384  INFO  manager.MyListener - After find by ---->By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']

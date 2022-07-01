@@ -1,0 +1,65 @@
+11:33:39.678  INFO  manager.Configuration - Device name --> 'Nex'; Platform --> 'Android'; Version --> '8.0'
+11:33:39.684  INFO  manager.Configuration -  App version ---> '0.0.3' 
+11:34:01.887  INFO  manager.Configuration - Test start with user --->User(email=noa@gmail.com, password=Nnoa12345$)
+11:34:02.384  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:02.902  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 84f78acb-35e1-41fd-b4c1-3626ab1b2823
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:34:02.904  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 84f78acb-35e1-41fd-b4c1-3626ab1b2823
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:34:04.034  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:04.629  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:05.361  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:05.511  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:06.463  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:06.598  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:08.329  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:08.723  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:09.419  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:34:10.527  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+11:34:11.369  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+11:34:11.739  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+11:34:13.129  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+11:34:13.375  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+11:34:14.031  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+11:34:15.848  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+11:34:16.435  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+11:34:17.393  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+11:34:18.381  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 84f78acb-35e1-41fd-b4c1-3626ab1b2823
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']}
+11:34:18.382  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:14ec:6267:8fcb:21fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Downloads/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 84f78acb-35e1-41fd-b4c1-3626ab1b2823
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/fab_main']}
+11:34:23.615  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+11:34:24.149  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+11:34:25.274  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+11:34:25.398  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+11:34:26.560  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+11:34:26.779  INFO  manager.MyListener - Before find by --->By.xpath: //*[@content-desc='Open']
+11:34:27.459  INFO  manager.MyListener - After find by ---->By.xpath: //*[@content-desc='Open']
+11:34:27.560  INFO  manager.MyListener - Before find by --->By.xpath: //*[@content-desc='Open']
+11:34:28.175  INFO  manager.MyListener - After find by ---->By.xpath: //*[@content-desc='Open']
+11:34:28.285  INFO  manager.MyListener - Before find by --->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']
+11:34:30.382  INFO  manager.MyListener - After find by ---->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/nav_fr_logout']

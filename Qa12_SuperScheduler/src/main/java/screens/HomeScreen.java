@@ -23,6 +23,8 @@ public class HomeScreen extends BaseScreen{
     MobileElement fabAddEvent;
 
     public EditCreateEventScreen initCreationEvent(){
+        new WebDriverWait(driver, 10)
+                .until(ExpectedConditions.visibilityOf(plusBtn));
         plusBtn.click();
         fabAddEvent.click();
 
