@@ -40,6 +40,14 @@ public class EditCreateEventScreen extends BaseScreen{
     @FindBy (xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']")
     List<MobileElement> days;
 
+    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/delete_menu']")
+    MobileElement deleteBtn;
+    public HomeScreen deleteEvent(){
+        new WebDriverWait(driver,10)
+                .until(ExpectedConditions.visibilityOf(deleteBtn));
+        deleteBtn.click();
+        return new HomeScreen(driver);
+    }
     public  EditCreateEventScreen actionDataNextDay(){
         pause(2000);
 

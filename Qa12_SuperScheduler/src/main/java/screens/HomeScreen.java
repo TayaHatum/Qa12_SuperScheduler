@@ -7,6 +7,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.util.List;
+
 public class HomeScreen extends BaseScreen{
     public HomeScreen(AppiumDriver<MobileElement> driver) {
         super(driver);
@@ -21,6 +23,8 @@ public class HomeScreen extends BaseScreen{
 
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/fab_add_event']")
     MobileElement fabAddEvent;
+    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/row_root']")
+    List<MobileElement> events;
 
     public EditCreateEventScreen initCreationEvent(){
         new WebDriverWait(driver, 10)
@@ -33,6 +37,13 @@ public class HomeScreen extends BaseScreen{
 
 
 
+    public EditCreateEventScreen selectFirstEvent(){
+        pause(2000);
+        MobileElement firstEvent = events.get(0);
+        firstEvent.click();
+
+        return new EditCreateEventScreen(driver);
+    }
 
     public boolean isPlusButtonPresent(){
         new WebDriverWait( driver,10)
